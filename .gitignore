@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Built binaries
+/parser/demoparser
+/parser/parser
+/tracker_simulator/tracker_simulator
+*.exe
+
+# Logs: never commit real tracker data
+*.log
+/parser/__debug_bin*
