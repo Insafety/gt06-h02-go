@@ -8,6 +8,9 @@ library.
 It is meant for anyone writing their own tracker parser. The comments in
 [`parser/main.go`](parser/main.go) are the real documentation: they record what
 devices actually send, including where they differ from the protocol PDFs.
+For a short walkthrough, read
+[Talking to €20 GPS trackers in Go](https://dev.to/theo_bodmer/talking-to-eu20-gps-trackers-in-go-416p)
+on dev.to.
 
 ![Simulator (left) replaying GT06 and H02 sessions into the parser (right)](docs/demo.gif)
 
